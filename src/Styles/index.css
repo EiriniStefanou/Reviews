@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e7eb;
+}
+
+.custom-hr {
+  width: 20%;
+  height: 0.085rem;
+  margin: 0.5rem auto;
+  background-color: #00b1b3;
+}
+
+.card-wrapper {
+  width: 30rem;
+  border-radius: 0.2rem;
+  background-color: #fff;
+}
+
+.usersImg {
+  display: flex;
+  margin: 0 auto;
+}
+
+.usersDetails {
+  text-align: center;
+}
+
+.usersDetails h2 {
+  font-size: 17px;
+}
+
+.usersDetails p {
+  color: cadetblue;
+}
+
+.textDetails {
+  color: gray;
+  text-align: center;
+}
+
+.left-rightBtnDetails {
+  display: flex;
+  justify-content: center;
+}
+
+.randomBtnDetails {
+  display: flex;
+  justify-content: center;
+}
+
+.pt-3rem {
+  padding: 0.3rem;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  color: #00b1b3;
+  background: transparent;
+}
+
+.mx-3rem {
+  margin: 0 0.3rem;
+}
+
+svg {
+  fill: #00b1b3;
+}
+
+.surpriseBtn {
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  background-color: aliceblue;
+}
